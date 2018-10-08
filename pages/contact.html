@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Mathieu Debras aka Twoarms">
+    <title>Rapimagibouffe - Contact</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class=" contain-all">
+
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="../assets/img/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="formules.html" class="nav-link">Formules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="galerie.html" class="nav-link">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="restaurants.html" class="nav-link">Restaurants</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- Header -->
+        <header class="container">
+            <div class="row">
+                <h2>Contactez-nous</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias nisi, eaque minus magni consequatur autem? Earum suscipit, neque minus fugiat ab, nostrum commodi quod soluta vero, ducimus accusamus aut et?</p>
+            </div>
+        </header>
+
+    <!-- Formulaire de contact -->
+        <form class="container">
+            <div class="form-group">
+                <label for="InputLastName">Nom</label>
+                <input type="LastName" class="form-control" id="LastName" placeholder="Votre nom">
+            </div>
+            <div class="form-group">
+                <label for="InputFirstName">Prénom</label>
+                <input type="FirstName" class="form-control" id="FirstName" placeholder="Votre prénom">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="form-group">
+                <label for="SelectSubject">Sujet</label>
+                <select class="form-control" id="SelectSubject" aria-describedby="sujetHelp">
+                    <option>Sujet 1</option>
+                    <option>Sujet 2</option>
+                    <option>Sujet 3</option>
+                    <option>Sujet 4</option>
+                </select>
+                <small id="sujetHelp" class="form-text text-muted">Veuillez choisir votre sujet dans la liste déroulante</small>
+            </div>
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea class="form-control" id="Message" rows="4"></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-dark">Envoyer <i class="far fa-envelope"></i></button>
+        </form>
+
+    <!-- Footer -->
+        <footer class="container-fluid bg-light fixed-bottom">
+            <div class="row">
+                <div class="col-12 col-md-10">
+                    <a class="col" href="index.html">Accueil</a></li>
+                    <a class="col" href="formules.html">Formules</a></li>
+                    <a class="col" href="galerie.html">Galerie</a></li>
+                    <a class="col" href="restaurants.html">Restaurants</a></li>
+                    <a class="col" href="contact.html">Contact</a></li>
+                </div>
+                <div class="col-12 col-md-2 text-center">
+                    <p class="copyright">©2018 Imagibouffe</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- jQuerry, Popper.js, bootstrap.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+</body>
+</html>
